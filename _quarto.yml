@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  author: "Cohort I"
+  date: "5/3/2024"
+  cover-image: cover.png
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: [litera, ../me.scss]
+  pdf:
+    documentclass: scrreprt
+
+
+
